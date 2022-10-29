@@ -1,0 +1,7 @@
+git clone 
+git status 
+git add .
+git status 
+git commit -m " mensagem aqui "
+git checkout -b nome-da-branch-nova
+git push origin  nome-da-branch-nova
