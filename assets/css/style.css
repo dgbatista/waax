@@ -717,14 +717,60 @@ header {
 
 
 .section_contact {
+    max-width: 500px;
+    margin: auto;
     display: flex;
-    justify-content:center
+    justify-content:center;
+    
+}
+.contact_form {
+    width: 80%;
+    display: flex;
 }
 .contact_form form{
+    flex:1;
     display: flex;
     justify-content:center;
     flex-direction: column;
-    align-items:center;
+}
+.contact_name_email{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.contact_name_email input{
+    flex: 1;
+}
+
+.contact_form form input {
+    border: 0;
+    border-bottom: 1px solid #CCC;
+    outline: 0;
+    font-size: 14px;
+    margin: 15px 0;
+    padding-bottom: 8px;
+}
+form input:nth-child(3){
+    margin-top: 50px;
+}
+
+.contact_btn {
+    width: 100%;
+    text-align: center;
+}
+
+.contact_form form input[type=button]{
+    display: inline-block;
+    width: 150px;
+    padding: 0;
+    background-color: #b28756;
+    color: #FFF;
+    text-transform: uppercase;
+    font-size: 12px;
+    text-align: center;
+    padding: 10px 20px;
+    border-radius: 15px;
+    margin-top: 28px;
 }
 
 
